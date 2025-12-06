@@ -2,36 +2,33 @@ using UnityEngine;
 
 public class ParallaxLayer : MonoBehaviour
 {
-    [Header("References")]
-    [SerializeField] private Transform cameraTransform;
+    public Transform cam;          // Main Camera
+    public float strength = 0.2f;  // 0 = sabit, 1 = kamera ile aynı hız
 
-    [Header("Parallax Ayarları")]
-    [Range(0f, 1f)]
-    [SerializeField] private float parallaxMultiplier = 0.5f;
-    
-    [Tooltip("Kamera yukarı-aşağı hareket ettiğinde bu layer da etkilensin mi?")]
-    [SerializeField] private bool affectVertical = false;
+    Vector3 startPos;
+    Vector3 startCamPos;
 
-    private Vector3 _lastCameraPosition;
-
-    private void Awake()
+    void Start()
     {
-        if (cameraTransform == null)
-            cameraTransform = Camera.main.transform;
+        if (cam == null)
+            cam = Camera.main.transform;
 
-        _lastCameraPosition = cameraTransform.position;
+        startPos = transform.position;
+        startCamPos = cam.position;
     }
 
-    private void LateUpdate()
+    void LateUpdate()
     {
-        Vector3 camDelta = cameraTransform.position - _lastCameraPosition;
+        Vector3 camDelta = cam.position - startCamPos;
 
-        float moveX = camDelta.x * parallaxMultiplier;
-        float moveY = affectVertical ? camDelta.y * parallaxMultiplier : 0f;
+        // Sadece X’de parallax istiyorsan Y’yi 0 yap
+        float parallaxX = camDelta.x * strength;
+        float parallaxY = camDelta.y * strength * 0.0f; // şimdilik 0, istersen 1 yaparsın
 
-        transform.position += new Vector3(moveX, moveY, 0f);
-
-        // Z eksenini hiç bozmuyoruz
-        _lastCameraPosition = cameraTransform.position;
+        transform.position = new Vector3(
+            startPos.x + parallaxX,
+            startPos.y + parallaxY,
+            startPos.z
+        );
     }
 }

@@ -267,12 +267,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 447
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 448
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52144456, y: 0.5256259}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 447
-        width: 18
-        height: 26
+        x: 38
+        y: 448
+        width: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 447
-        width: 21
-        height: 33
+        x: 69
+        y: 448
+        width: 19
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,12 +333,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_3
       rect:
         serializedVersion: 2
-        x: 100
-        y: 447
-        width: 19
-        height: 33
+        x: 101
+        y: 448
+        width: 17
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_4
       rect:
         serializedVersion: 2
-        x: 134
-        y: 447
-        width: 26
-        height: 26
+        x: 135
+        y: 448
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_5
       rect:
         serializedVersion: 2
-        x: 3
-        y: 415
-        width: 26
-        height: 26
+        x: 4
+        y: 416
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_6
       rect:
         serializedVersion: 2
-        x: 35
-        y: 415
-        width: 26
-        height: 25
+        x: 36
+        y: 416
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,12 +421,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_7
       rect:
         serializedVersion: 2
-        x: 67
-        y: 415
-        width: 26
-        height: 26
+        x: 68
+        y: 416
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,12 +443,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_8
       rect:
         serializedVersion: 2
-        x: 99
-        y: 415
-        width: 26
-        height: 26
+        x: 100
+        y: 416
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_9
       rect:
         serializedVersion: 2
-        x: 3
-        y: 384
-        width: 26
-        height: 25
+        x: 4
+        y: 385
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_10
       rect:
         serializedVersion: 2
-        x: 35
-        y: 383
-        width: 26
-        height: 25
+        x: 36
+        y: 384
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_11
       rect:
         serializedVersion: 2
-        x: 67
-        y: 383
-        width: 26
-        height: 26
+        x: 68
+        y: 384
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -531,12 +531,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_12
       rect:
         serializedVersion: 2
-        x: 99
-        y: 384
-        width: 26
-        height: 25
+        x: 100
+        y: 385
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,12 +553,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_13
       rect:
         serializedVersion: 2
-        x: 131
-        y: 383
-        width: 26
-        height: 25
+        x: 132
+        y: 384
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -575,12 +575,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_14
       rect:
         serializedVersion: 2
-        x: 163
-        y: 383
-        width: 26
-        height: 26
+        x: 164
+        y: 384
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -597,12 +597,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_15
       rect:
         serializedVersion: 2
-        x: 3
-        y: 352
-        width: 26
-        height: 25
+        x: 4
+        y: 353
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -619,12 +619,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_16
       rect:
         serializedVersion: 2
-        x: 35
-        y: 351
-        width: 26
-        height: 25
+        x: 36
+        y: 352
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -641,12 +641,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_17
       rect:
         serializedVersion: 2
-        x: 67
-        y: 351
-        width: 26
-        height: 26
+        x: 68
+        y: 352
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -663,12 +663,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_18
       rect:
         serializedVersion: 2
-        x: 99
-        y: 352
-        width: 26
-        height: 25
+        x: 100
+        y: 353
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -685,12 +685,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_19
       rect:
         serializedVersion: 2
-        x: 131
-        y: 351
-        width: 26
-        height: 25
+        x: 132
+        y: 352
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -707,12 +707,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_20
       rect:
         serializedVersion: 2
-        x: 163
-        y: 351
-        width: 26
-        height: 26
+        x: 164
+        y: 352
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -729,12 +729,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_21
       rect:
         serializedVersion: 2
-        x: 4
-        y: 323
-        width: 26
-        height: 27
+        x: 5
+        y: 324
+        width: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -751,12 +751,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_22
       rect:
         serializedVersion: 2
-        x: 36
-        y: 321
-        width: 26
-        height: 28
+        x: 37
+        y: 322
+        width: 24
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -773,12 +773,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_23
       rect:
         serializedVersion: 2
-        x: 68
-        y: 321
-        width: 26
-        height: 28
+        x: 69
+        y: 322
+        width: 24
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -795,12 +795,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_24
       rect:
         serializedVersion: 2
-        x: 100
-        y: 321
-        width: 26
-        height: 28
+        x: 101
+        y: 322
+        width: 24
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -818,11 +818,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 287
-        width: 25
-        height: 25
+        y: 288
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -839,12 +839,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_26
       rect:
         serializedVersion: 2
-        x: 31
-        y: 287
-        width: 26
-        height: 25
+        x: 32
+        y: 288
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -861,12 +861,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_27
       rect:
         serializedVersion: 2
-        x: 63
-        y: 287
-        width: 26
-        height: 25
+        x: 64
+        y: 288
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -883,12 +883,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_28
       rect:
         serializedVersion: 2
-        x: 99
-        y: 287
-        width: 27
-        height: 25
+        x: 100
+        y: 288
+        width: 25
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -905,12 +905,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_29
       rect:
         serializedVersion: 2
-        x: 131
-        y: 287
-        width: 26
-        height: 25
+        x: 132
+        y: 288
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -927,12 +927,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_30
       rect:
         serializedVersion: 2
-        x: 163
-        y: 287
-        width: 23
-        height: 25
+        x: 164
+        y: 288
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -949,12 +949,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_31
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255
-        width: 26
-        height: 27
+        x: 1
+        y: 256
+        width: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -971,12 +971,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 255
-        width: 26
-        height: 27
+        x: 33
+        y: 256
+        width: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -993,12 +993,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_33
       rect:
         serializedVersion: 2
-        x: 64
-        y: 255
-        width: 26
-        height: 27
+        x: 65
+        y: 256
+        width: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1015,12 +1015,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_34
       rect:
         serializedVersion: 2
-        x: 3
-        y: 226
-        width: 26
-        height: 28
+        x: 4
+        y: 227
+        width: 24
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1037,12 +1037,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_35
       rect:
         serializedVersion: 2
-        x: 31
-        y: 223
-        width: 34
-        height: 10
+        x: 32
+        y: 224
+        width: 32
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1059,12 +1059,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_36
       rect:
         serializedVersion: 2
-        x: 3
-        y: 95
-        width: 29
-        height: 122
+        x: 4
+        y: 96
+        width: 27
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1081,12 +1081,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_37
       rect:
         serializedVersion: 2
-        x: 34
-        y: 95
-        width: 29
-        height: 122
+        x: 35
+        y: 96
+        width: 27
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1103,12 +1103,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_38
       rect:
         serializedVersion: 2
-        x: 66
-        y: 191
-        width: 25
-        height: 26
+        x: 67
+        y: 192
+        width: 23
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1125,12 +1125,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_39
       rect:
         serializedVersion: 2
-        x: 100
-        y: 191
-        width: 26
-        height: 22
+        x: 101
+        y: 192
+        width: 24
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1147,12 +1147,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_40
       rect:
         serializedVersion: 2
-        x: 132
-        y: 191
-        width: 27
-        height: 22
+        x: 133
+        y: 192
+        width: 25
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1169,12 +1169,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_41
       rect:
         serializedVersion: 2
-        x: 166
-        y: 191
-        width: 24
-        height: 28
+        x: 167
+        y: 192
+        width: 22
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1191,12 +1191,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_42
       rect:
         serializedVersion: 2
-        x: 68
-        y: 95
-        width: 23
-        height: 66
+        x: 69
+        y: 96
+        width: 21
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1213,12 +1213,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_43
       rect:
         serializedVersion: 2
-        x: 100
-        y: 95
-        width: 21
-        height: 66
+        x: 101
+        y: 96
+        width: 19
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1235,12 +1235,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_44
       rect:
         serializedVersion: 2
-        x: 132
-        y: 95
-        width: 21
-        height: 34
+        x: 133
+        y: 96
+        width: 19
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1257,12 +1257,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_45
       rect:
         serializedVersion: 2
-        x: 164
-        y: 95
-        width: 21
-        height: 34
+        x: 165
+        y: 96
+        width: 19
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1279,12 +1279,12 @@ TextureImporter:
       name: SCI_FI CHARACTER_46
       rect:
         serializedVersion: 2
-        x: 196
-        y: 95
-        width: 21
-        height: 34
+        x: 197
+        y: 96
+        width: 19
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1301,7 +1301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f3ccc3d4d45894c0b9c42d0c73451b8d
     internalID: 0
     vertices: []
     indices: 

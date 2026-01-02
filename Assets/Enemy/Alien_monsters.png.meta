@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 92c56d17c616f42edae70b49748e2cbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2694332732596945538
+    second: Alien_monsters_0
+  - first:
+      213: -7572942272750157392
+    second: Alien_monsters_1
+  - first:
+      213: 1319593470444372673
+    second: Alien_monsters_2
+  - first:
+      213: 8485630907253403941
+    second: Alien_monsters_3
+  - first:
+      213: -7759517008810511751
+    second: Alien_monsters_4
+  - first:
+      213: -7938745987118110558
+    second: Alien_monsters_5
+  - first:
+      213: -8843402057799730277
+    second: Alien_monsters_6
+  - first:
+      213: 8008002785145647659
+    second: Alien_monsters_7
+  - first:
+      213: 568136768743353714
+    second: Alien_monsters_8
+  - first:
+      213: 5209160981480655602
+    second: Alien_monsters_9
+  - first:
+      213: 7753003589697296515
+    second: Alien_monsters_10
+  - first:
+      213: -5884954129369934624
+    second: Alien_monsters_11
+  - first:
+      213: 8272346144876637035
+    second: Alien_monsters_12
+  - first:
+      213: 1528029451171072011
+    second: Alien_monsters_13
+  - first:
+      213: -2374461226479945783
+    second: Alien_monsters_14
+  - first:
+      213: -1233717952481860963
+    second: Alien_monsters_15
+  - first:
+      213: 1243569067287028267
+    second: Alien_monsters_16
+  - first:
+      213: 3351194499002575942
+    second: Alien_monsters_17
+  - first:
+      213: 6775709331039335329
+    second: Alien_monsters_18
+  - first:
+      213: 593819355190254583
+    second: Alien_monsters_19
+  - first:
+      213: -3169492214687282237
+    second: Alien_monsters_20
+  - first:
+      213: 9116828825745535348
+    second: Alien_monsters_21
+  - first:
+      213: -5675014181531984096
+    second: Alien_monsters_22
+  - first:
+      213: 819002988974848749
+    second: Alien_monsters_23
+  - first:
+      213: 9129005922518099097
+    second: Alien_monsters_24
+  - first:
+      213: -4216875480902109080
+    second: Alien_monsters_25
+  - first:
+      213: 2725359968189304405
+    second: Alien_monsters_26
+  - first:
+      213: 8425545147563697621
+    second: Alien_monsters_27
+  - first:
+      213: -166358419285994830
+    second: Alien_monsters_28
+  - first:
+      213: -646230421607594548
+    second: Alien_monsters_29
+  - first:
+      213: -2295087235704008866
+    second: Alien_monsters_30
+  - first:
+      213: 2534435912728324044
+    second: Alien_monsters_31
+  - first:
+      213: -558107174461788136
+    second: Alien_monsters_32
+  - first:
+      213: 5340238175081869132
+    second: Alien_monsters_33
+  - first:
+      213: -4729162172631529215
+    second: Alien_monsters_34
+  - first:
+      213: 1945466872650970493
+    second: Alien_monsters_35
+  - first:
+      213: -2444046819959619672
+    second: Alien_monsters_36
+  - first:
+      213: -5565556552052878783
+    second: Alien_monsters_37
+  - first:
+      213: 4943380442362717945
+    second: Alien_monsters_38
+  - first:
+      213: -5716452630614420977
+    second: Alien_monsters_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien_monsters_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7df9d6a7aecb9ad0800000000000000
+      internalID: -2694332732596945538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 287
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b10038402187e690800000000000000
+      internalID: -7572942272750157392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 287
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c203c51543205210800000000000000
+      internalID: 1319593470444372673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5213ae1f95403c570800000000000000
+      internalID: 8485630907253403941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 255
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9727f356468a05490800000000000000
+      internalID: -7759517008810511751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a864c30698e3d190800000000000000
+      internalID: -7938745987118110558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b73eaceace54580800000000000000
+      internalID: -8843402057799730277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 191
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f1f8da14222f60800000000000000
+      internalID: 8008002785145647659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 255
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d29cc816d62e700800000000000000
+      internalID: 568136768743353714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2facaf63058aa4840800000000000000
+      internalID: 5209160981480655602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 223
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3885c3a00b3389b60800000000000000
+      internalID: 7753003589697296515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4df6f2661745ea0800000000000000
+      internalID: -5884954129369934624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 195
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ba1707df64dc270800000000000000
+      internalID: 8272346144876637035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b080363a0b6a43510800000000000000
+      internalID: 1528029451171072011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 196
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c779be48183c0fd0800000000000000
+      internalID: -2374461226479945783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 206
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92eb490f04f0eee0800000000000000
+      internalID: -1233717952481860963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 195
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22ae4d5a7b024110800000000000000
+      internalID: 1243569067287028267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64caa4634a5d18e20800000000000000
+      internalID: 3351194499002575942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a336e1ccb7280e50800000000000000
+      internalID: 6775709331039335329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbdddeae8bad3800800000000000000
+      internalID: 593819355190254583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 99
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbc2399f93b304d0800000000000000
+      internalID: -3169492214687282237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 114
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471ba94938b758e70800000000000000
+      internalID: 9116828825745535348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f5b7e5bac4e31b0800000000000000
+      internalID: -5675014181531984096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 100
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea34d311eead5b00800000000000000
+      internalID: 819002988974848749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 110
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e02cd48eb0be70800000000000000
+      internalID: 9129005922518099097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 32
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86876c29716aa75c0800000000000000
+      internalID: -4216875480902109080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e4ef4937c62d520800000000000000
+      internalID: 2725359968189304405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5ec87dbac8de470800000000000000
+      internalID: 8425545147563697621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2101926e9f0bdf0800000000000000
+      internalID: -166358419285994830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5470dfad02807f0800000000000000
+      internalID: -646230421607594548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f445ba1563620e0800000000000000
+      internalID: -2295087235704008866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc72a2cd8002c2320800000000000000
+      internalID: 2534435912728324044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 63
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810bb975b743148f0800000000000000
+      internalID: -558107174461788136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f2cb193565c1a40800000000000000
+      internalID: 5340238175081869132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10945176f04ae5eb0800000000000000
+      internalID: -4729162172631529215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75b6aa20dfaffa10800000000000000
+      internalID: 1945466872650970493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af32e9cd50051ed0800000000000000
+      internalID: -2444046819959619672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 36
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1425a81bdcb23c2b0800000000000000
+      internalID: -5565556552052878783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 46
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6a4a8325a6a9440800000000000000
+      internalID: 4943380442362717945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_monsters_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0251e89e941ba0b0800000000000000
+      internalID: -5716452630614420977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien_monsters_0: -2694332732596945538
+      Alien_monsters_1: -7572942272750157392
+      Alien_monsters_10: 7753003589697296515
+      Alien_monsters_11: -5884954129369934624
+      Alien_monsters_12: 8272346144876637035
+      Alien_monsters_13: 1528029451171072011
+      Alien_monsters_14: -2374461226479945783
+      Alien_monsters_15: -1233717952481860963
+      Alien_monsters_16: 1243569067287028267
+      Alien_monsters_17: 3351194499002575942
+      Alien_monsters_18: 6775709331039335329
+      Alien_monsters_19: 593819355190254583
+      Alien_monsters_2: 1319593470444372673
+      Alien_monsters_20: -3169492214687282237
+      Alien_monsters_21: 9116828825745535348
+      Alien_monsters_22: -5675014181531984096
+      Alien_monsters_23: 819002988974848749
+      Alien_monsters_24: 9129005922518099097
+      Alien_monsters_25: -4216875480902109080
+      Alien_monsters_26: 2725359968189304405
+      Alien_monsters_27: 8425545147563697621
+      Alien_monsters_28: -166358419285994830
+      Alien_monsters_29: -646230421607594548
+      Alien_monsters_3: 8485630907253403941
+      Alien_monsters_30: -2295087235704008866
+      Alien_monsters_31: 2534435912728324044
+      Alien_monsters_32: -558107174461788136
+      Alien_monsters_33: 5340238175081869132
+      Alien_monsters_34: -4729162172631529215
+      Alien_monsters_35: 1945466872650970493
+      Alien_monsters_36: -2444046819959619672
+      Alien_monsters_37: -5565556552052878783
+      Alien_monsters_38: 4943380442362717945
+      Alien_monsters_39: -5716452630614420977
+      Alien_monsters_4: -7759517008810511751
+      Alien_monsters_5: -7938745987118110558
+      Alien_monsters_6: -8843402057799730277
+      Alien_monsters_7: 8008002785145647659
+      Alien_monsters_8: 568136768743353714
+      Alien_monsters_9: 5209160981480655602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // Coroutine için gerekli
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
@@ -12,6 +13,7 @@ public class EnemyBase : MonoBehaviour
     public GameObject lootPrefab; // Mermi prefabı buraya
     [Range(0, 100)] public float dropChance = 50f; // Düşme ihtimali %
 
+    // Çocuk sınıflar (AlienBug, EnemyFly) erişebilsin diye protected
     protected Animator anim;
     protected Rigidbody2D rb;
     protected bool isDead = false;
@@ -23,16 +25,13 @@ public class EnemyBase : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Hasar alma fonksiyonu (EnemyFly bunu override edip STUN ekleyecek)
     public virtual void TakeDamage(int damage)
     {
         if (isDead) return;
 
         currentHealth -= damage;
 
-        // --- DEĞİŞİKLİK BURADA ---
-        // Senin Animator pencerende parametre adı "Damage" olduğu için bunu kullanıyoruz.
-        // Bu kod çalıştığında düşman beyaz yanıp sönecek (veya damage animasyonu girecek).
+        // Hasar animasyonu
         if (anim != null)
         {
             anim.SetTrigger("Damage");
@@ -48,19 +47,41 @@ public class EnemyBase : MonoBehaviour
     {
         isDead = true;
         
-        // DİKKAT: Animator penceresinde "die" isminde bir Trigger oluşturduğundan emin ol!
-        // (Büyük küçük harf duyarlıdır: "Die" mı "die" mı kontrol et)
-        anim.SetTrigger("die"); 
+        // DİKKAT: Animator'daki Trigger adının "Die" (Büyük harf) olduğundan emin ol.
+        // Eğer küçükse burayı "die" yap.
+        anim.SetTrigger("Die"); 
 
-        // Loot düşür
         TryDropLoot();
 
-        // Fiziği kapat ki ceset aşağı düşmesin veya player çarpmasın
+        // Fiziği tamamen kapat
         rb.simulated = false; 
-        // Veya sadece collider'ı kapatabilirsin: GetComponent<Collider2D>().enabled = false;
+        GetComponent<Collider2D>().enabled = false; // Mermiler artık içinden geçer
 
-        // Cesedi 3 saniye sonra sahneden sil (Animasyon bitsin diye bekliyoruz)
-        Destroy(gameObject, 3f);
+        // Direkt Destroy etmek yerine, FadeOut (Yavaşça Silinme) başlatıyoruz
+        StartCoroutine(FadeOutAndDestroy());
+    }
+
+    IEnumerator FadeOutAndDestroy()
+    {
+        // 1. Ölüm animasyonunun oynaması için biraz bekle (Örn: 0.5 saniye)
+        yield return new WaitForSeconds(0.5f);
+
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        if (sr != null)
+        {
+            // 2. Yavaşça şeffaflaştır (Alpha değerini düşür)
+            float alpha = 1f;
+            while (alpha > 0)
+            {
+                alpha -= Time.deltaTime * 2f; // Silinme hızı
+                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, alpha);
+                yield return null; // Bir sonraki kareyi bekle
+            }
+        }
+
+        // 3. Tamamen görünmez olunca yok et
+        Destroy(gameObject);
     }
 
     void TryDropLoot()

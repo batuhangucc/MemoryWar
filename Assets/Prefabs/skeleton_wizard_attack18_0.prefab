@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5811497200662529634}
   m_Layer: 0
   m_Name: skeleton_wizard_attack18_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -152,6 +152,8 @@ MonoBehaviour:
   rotateSpeed: 200
   damage: 20
   lifetime: 5
+  homingDelay: 0.5
+  visualRotationOffset: 0
   hitEffect: {fileID: 0}
 --- !u!50 &5811497200662529634
 Rigidbody2D:

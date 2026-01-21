@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a4c9d73fcacd41969dbe091324b6d46
+guid: a2529486e6054452093e666275d3dcbd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2172731295456066000
-    second: skeleton_wizard_attack13_0
+      213: 3947100443794776546
+    second: skeleton_wizard_walk8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skeleton_wizard_attack13_0
+      name: skeleton_wizard_walk8_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 5
-        width: 83
-        height: 90
+        x: 51
+        y: 6
+        width: 64
+        height: 100
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d978020a97172e10800000000000000
-      internalID: 2172731295456066000
+      spriteID: 2e1ac25e0fae6c630800000000000000
+      internalID: 3947100443794776546
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fcbfeb26e043a427ca74d3b6406dfc12
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      skeleton_wizard_attack13_0: 2172731295456066000
+      skeleton_wizard_walk8_0: 3947100443794776546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

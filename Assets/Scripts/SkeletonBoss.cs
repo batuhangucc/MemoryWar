@@ -5,7 +5,11 @@ using UnityEngine.UI;
 public class SkeletonBoss : EnemyBase 
 {
     [Header("UI Ayarları")]
-    public Slider healthBar; 
+    public GameObject bossHUDPanel; 
+    public Image healthFillImage;   
+    
+    [Range(1f, 25f)] 
+    public float smoothSpeed = 10f; 
 
     [Header("Sprite Yönü Ayarı")]
     public bool spriteSolaBakiyor = false; 
@@ -13,7 +17,7 @@ public class SkeletonBoss : EnemyBase
     [Header("Hareket Ayarları")]
     public float moveSpeed = 2f;      
     public float attackRange = 6f;    
-    public float aggroRange = 10f; // Savaşın başlama mesafesi
+    public float aggroRange = 10f; 
 
     [Header("Saldırı Ayarları")]
     public GameObject projectilePrefab; 
@@ -24,9 +28,12 @@ public class SkeletonBoss : EnemyBase
     private float nextAttackTime;
     private bool isAttacking = false;
     private float defaultScaleX; 
-
-    // 🔥 YENİ DEĞİŞKEN: Savaş başladı mı?
     private bool isBattleStarted = false;
+
+    // Sliced bar için gerekli değişkenler
+    private float targetWidth; // Gitmek istediğimiz genişlik
+    private float fullWidth;   // Barın full halindeki genişliği (Başlangıçta ölçeceğiz)
+    private RectTransform barRect; // Genişliği değiştirmek için gerekli bileşen
 
     void Start()
     {
@@ -36,40 +43,55 @@ public class SkeletonBoss : EnemyBase
         currentHealth = maxHealth;
         defaultScaleX = Mathf.Abs(transform.localScale.x);
 
-        // --- BAŞLANGIÇTA CAN BARINI GİZLE ---
-        if (healthBar != null)
+        // --- SLICED BAR KURULUMU ---
+        if (healthFillImage != null)
         {
-            healthBar.maxValue = maxHealth;
-            healthBar.value = currentHealth;
-            healthBar.gameObject.SetActive(false); // <--- GİZLENDİ
+            // Barın RectTransform bileşenini al
+            barRect = healthFillImage.rectTransform;
+            
+            // Başlangıçtaki genişliği "Full Can" genişliği olarak kaydet
+            // ÖNEMLİ: Unity'de barı sahnede tam dolu haliyle ayarlamış olmalısın!
+            fullWidth = barRect.sizeDelta.x;
+            
+            // Hedefi full yap
+            targetWidth = fullWidth;
+        }
+
+        if (bossHUDPanel != null)
+        {
+            bossHUDPanel.SetActive(false); 
         }
     }
 
     void Update()
     {
+        // --- SMOOTH WIDTH (GENİŞLİK) SİSTEMİ ---
+        if (healthFillImage != null && barRect != null)
+        {
+            // Mevcut genişliği, hedef genişliğe doğru kaydır
+            float currentWidth = barRect.sizeDelta.x;
+            float newWidth = Mathf.Lerp(currentWidth, targetWidth, smoothSpeed * Time.deltaTime);
+            
+            // Yeni genişliği uygula
+            barRect.sizeDelta = new Vector2(newWidth, barRect.sizeDelta.y);
+        }
+
         if (isDead || player == null) return;
         
-        // Mesafe ölçümü
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // --- 1. DURUM: SAVAŞ HENÜZ BAŞLAMADIYSA ---
         if (!isBattleStarted)
         {
-            // Oyuncu menzile girdi mi?
             if (distanceToPlayer <= aggroRange)
             {
-                // 🔥 SAVAŞI BAŞLAT! 🔥
                 StartBattle();
             }
             else
             {
-                // Menzile girmediyse HİÇBİR ŞEY YAPMA (Donmuş gibi bekle)
                 anim.SetBool("IsMoving", false);
                 return; 
             }
         }
-
-        // --- SAVAŞ BAŞLADIKTAN SONRAKİ NORMAL DAVRANIŞLAR ---
 
         if (isAttacking) 
         {
@@ -77,9 +99,7 @@ public class SkeletonBoss : EnemyBase
             return;
         }
 
-        // Eğer savaş başladıysa ama oyuncu çok uzaklaştıysa takibi bırakabilir 
-        // (İstersen burayı kaldırıp sonsuza kadar kovalatabilirsin)
-        if (distanceToPlayer > aggroRange * 1.5f) // Çıkış menzili girişten biraz büyük olsun
+        if (distanceToPlayer > aggroRange * 1.5f) 
         {
             anim.SetBool("IsMoving", false);
             return;
@@ -89,14 +109,12 @@ public class SkeletonBoss : EnemyBase
 
         if (distanceToPlayer > attackRange)
         {
-            // Yürü
             Vector2 targetPosition = new Vector2(player.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
             anim.SetBool("IsMoving", true); 
         }
         else
         {
-            // Dur ve Saldır
             rb.linearVelocity = Vector2.zero; 
             anim.SetBool("IsMoving", false); 
 
@@ -107,39 +125,30 @@ public class SkeletonBoss : EnemyBase
         }
     }
 
-    // --- SAVAŞI BAŞLATAN FONKSİYON ---
     void StartBattle()
     {
-        isBattleStarted = true; // Artık hasar alabilir ve hareket edebilir
-        
-        if (healthBar != null)
-        {
-            healthBar.gameObject.SetActive(true); // <--- CAN BARI GELDİ
-        }
-
-        // İstersen burada Boss bir kükreme sesi çıkarabilir veya animasyon yapabilir.
+        isBattleStarted = true; 
+        if (bossHUDPanel != null) bossHUDPanel.SetActive(true); 
     }
 
-    // --- HASAR ALMA (GÜNCELLENDİ) ---
     public override void TakeDamage(int damage)
     {
-        // 🔥 ÖNEMLİ: Savaş başlamadıysa hasarı reddet!
         if (!isBattleStarted) return; 
 
         base.TakeDamage(damage);
 
-        if (healthBar != null)
+        // --- HEDEF GENİŞLİĞİ GÜNCELLE ---
+        if (healthFillImage != null)
         {
-            healthBar.value = currentHealth;
+            // Oran hesabı: (Mevcut Can / Max Can) * Full Genişlik
+            float healthPercentage = (float)currentHealth / maxHealth;
+            targetWidth = healthPercentage * fullWidth;
         }
     }
 
     protected override void Die()
     {
-        if (healthBar != null)
-        {
-            healthBar.gameObject.SetActive(false);
-        }
+        if (bossHUDPanel != null) bossHUDPanel.SetActive(false);
         base.Die();
     }
 

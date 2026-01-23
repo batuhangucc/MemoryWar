@@ -18698,6 +18698,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 121920028943141474, guid: d664f4719910b40878688a9cfad9b287, type: 3}
   firePoint: {fileID: 1931822554}
   attackCooldown: 3
+  attackAnimDuration: 1.5
+  damageAnimCooldown: 2
 --- !u!50 &2143448057
 Rigidbody2D:
   serializedVersion: 5
